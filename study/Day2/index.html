@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Day 2</title>
+    <style>
+      .oz__header {
+        background-color: aquamarine;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <div class="box">
+      <h1>수습 국원 모집</h1>
+      <h2>방송에 관심 있는 새내기 여러분 환영합니다.</h2>
+      <p>
+        교내 방송국에서 신입생을 대상으로 수습 국원을 모집합니다. 학부와 전공은
+        상관없습니다.<br />
+        방송에 관심 있는 여러 학우의 지원 바랍니다.
+      </p>
+      <ul>
+        <li><b>모집 기간</b>: 3월 2일 ~ 3월 11일</li>
+        <li><b>모집 분야</b>: 아나운서, PD, 엔지니어</li>
+        <li>
+          <b>지원 방법</b>: 양식 작성 후 이메일 접수 <br />
+          <i>지원서 양식은 교내 방송국 홈페이지 공지 게시판에 있습니다.</i>
+        </li>
+      </ul>
+      <br />
+      <h2>혜택</h2>
+      <ol type="a">
+        <li>수습기자 활동 중 소저의 활동비 지급</li>
+        <li>정기자로 진급하면 장학금 지급</li>
+      </ol>
+      <img
+        src="data:image/png;base64,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"
+        alt="camera"
+        width="50%"
+      />
+    </div> -->
+    <!-- <header>
+      <h1>회원가입 폼</h1>
+    </header>
+    <main>
+      <form>
+        <div>
+          <label for="user__id">아이디 : </label>
+        </div>
+        <input
+          id="user__id"
+          type="text"
+          maxlength="20"
+          placeholder="아이디를 입력해주세요."
+        />
+        <div>
+          <label for="user__pw">비밀번호 : </label>
+        </div>
+        <input
+          id="user__pw"
+          type="password"
+          maxlength="20"
+          placeholder="비밀번호를 입력해주세요."
+        />
+        <div>
+          <label for="user__em">이메일 : </label>
+        </div>
+        <input
+          id="user__em"
+          type="email"
+          required
+          placeholder="이메일을 기입해주세요."
+        />
+        <div><label for="user__age">나이 :</label></div>
+        <input id="user__age" type="number" min="20" max="40" />
+        <hr />
+        <input type="radio" value="male" name="gender" /> 남성
+        <input type="radio" value="female" name="gender" /> 여성
+
+        <input type="submit" />
+      </form>
+    </main>
+
+    <footer>
+      <button onclick="alert('메롱')">눌러 봐</button>
+    </footer> -->
+
+    <!-- <header>
+      <div class="oz__header">
+        <span>오즈코딩스쿨 회원가입</span>
+      </div>
+    </header>
+    <main>
+      <form>
+        <div>
+          <input type="email" placeholder="이메일을 입력해주세요." />
+        </div>
+        <div>
+          <input type="text" placeholder="이름을 입력해주세요." />
+        </div>
+        <div>
+          <input
+            type="password"
+            placeholder="비밀번호를 입력해주세요."
+            maxlength="15"
+          />
+        </div>
+        <div>
+          <input
+            type="password"
+            placeholder="비밀번호를 다시 입력해주세요."
+            maxlength="15"
+          />
+        </div>
+        <div>
+          <label>핸드폰 번호를 기입해주세요</label>
+        </div>
+        <div>
+          <input id="hi" type="tel" name="usertel__first" maxlength="4" /> -
+          <input type="tel" name="usertel__middle" maxlength="4" /> -
+          <input type="tel" name="usertel__last" maxlength="4" />
+        </div>
+        <div><span>000000</span></div>
+        <button disabled>인증번호 전송</button>
+        <div><span>3:00</span></div>
+        <button disabled>인증확인</button>
+        <div>
+          <select size="1" name="location">
+            <option>지역을 선택하세요.</option>
+            <option>강원도</option>
+            <option>서울</option>
+            <option>충청도</option>
+            <option>대전</option>
+            <option>전라도</option>
+          </select>
+        </div>
+        <div>
+          <input type="radio" value="male" name="gender" /> 남성
+          <input type="radio" value="female" name="gender" /> 여성
+        </div>
+        <input type="submit" value="가입하기" />
+      </form>
+    </main>
+
+    <br />
+    <hr />
+    <footer>
+      <h1>오즈코딩스쿨 회원가입</h1>
+    </footer> -->
+    <h1>기본 & 그룹 선택자</h1>
+    <span>span 요소</span>
+    <p>p 요소</p>
+    <p class="blue">p 요소, class는 blue</p>
+    <span class="blue">span 요소, class는 blue</span>
+    <p class="blue dark">p요소, class는 blue dark</p>
+    <p class="blue" id="red">p요소, class는 blue, id는 id</p>
+
+    <div class="test">
+      <span>하이</span>
+      <p>바이</p>
+    </div>
+  </body>
+</html>

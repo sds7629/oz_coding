@@ -1,0 +1,16 @@
+.title1 {
+  display: inline;
+  color: rgb(144, 180, 156);
+}
+
+.title2 {
+  background-color: black;
+  display: inline;
+}
+
+b {
+  font-size: 50px;
+}
+span {
+  color: blue;
+}

@@ -1,0 +1,38 @@
+* {
+  font-weight: bold;
+  color: darkorange;
+}
+
+* {
+  color: plum;
+}
+
+p {
+  color: olivedrab;
+}
+
+.blue {
+  color: lightblue;
+}
+
+p.blue {
+  color: slateblue;
+}
+
+.blue.dark {
+  color: yellow;
+}
+
+#red {
+  color: red;
+}
+
+span,
+.dark,
+#red {
+  text-underline-position: auto;
+}
+
+p {
+  color: black;
+}
