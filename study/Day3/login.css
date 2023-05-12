@@ -1,0 +1,158 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+.container__body {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  border: 1px solid rgb(184, 210, 231);
+  border-radius: 10px;
+  height: 80%;
+  width: 500px;
+  margin: 0px auto;
+  box-shadow: 2px 2px 3px 3px rgb(170, 199, 236);
+}
+
+.headline {
+  margin: 30px 0px;
+  margin-left: 50px;
+  color: blue;
+  font-weight: 700;
+  font-size: x-large;
+}
+
+.main__form {
+  margin: 30px 0px;
+  margin-left: 50px;
+}
+
+.input__div {
+  margin: 5px 0px;
+  opacity: 0.7;
+}
+
+.main__input {
+  width: 350px;
+  height: 40px;
+  margin: 5px;
+  padding: 5px 10px;
+  padding-right: 100px;
+}
+
+.phon__container {
+  display: flex;
+}
+
+.phone__box {
+  font-size: large;
+  text-align: left;
+  color: blue;
+  margin-left: 30px;
+  font-weight: 700;
+}
+
+.num__box {
+  display: flex;
+  width: 350px;
+  margin: 10px 0px;
+  margin-left: 60px;
+  align-items: center;
+  justify-content: space-between;
+  opacity: 0.7;
+}
+
+#phone {
+  padding-left: 30px;
+}
+
+.phone__num {
+  margin: 10px 0px;
+  height: 40px;
+  width: 100px;
+}
+
+.aut,
+.aut__time {
+  display: flex;
+  margin-left: 60px;
+  width: 350px;
+  justify-content: right;
+}
+
+.aut__num,
+.aut__timenum {
+  display: flex;
+  align-items: center;
+  color: blue;
+}
+
+.aut__btn {
+  width: 110px;
+  height: 40px;
+  margin-left: 15px;
+  color: black;
+  opacity: 0.7;
+}
+
+.aut__time {
+  margin-top: 20px;
+}
+
+.earth {
+  display: flex;
+  margin: 15px 0px;
+  margin-left: 60px;
+  width: 350px;
+  height: 40px;
+}
+
+#location {
+  width: 100%;
+  padding-left: 10px;
+  opacity: 0.7;
+}
+
+.selection {
+  display: flex;
+  margin: 20px 10px;
+  justify-content: center;
+}
+
+.sel__man {
+  margin-right: 10px;
+}
+
+.login {
+  margin-left: 60px;
+  width: 350px;
+  height: 70px;
+  opacity: 0.7;
+}
+
+hr {
+  margin: 15px 0px;
+  margin-top: 30px;
+  margin-left: 60px;
+  opacity: 0.4;
+  color: black;
+  width: 350px;
+}
+
+#login__plus {
+  border: 1px solid gray;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+}
